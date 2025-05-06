@@ -1,9 +1,17 @@
 {
-	"git": {
-		"commitMessage": "chore: release v${version}",
-		"requireCleanWorkingDir": false
-	},
-	"github": {
-		"release": true
-	}
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "tagName": "v${version}",
+    "requireCleanWorkingDir": false
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": true,
+    "access": "public"
+  },
+  "hooks": {
+    "before:init": ["npm run build"]
+  }
 }
