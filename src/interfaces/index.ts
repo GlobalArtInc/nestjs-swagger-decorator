@@ -1,9 +1,8 @@
-// TODO: put it in a private package
 export class SwaggerDocumentationOptions {
+  endpointDescription?: string;
+  endpointSummary?: string;
   // eslint-disable-next-line @typescript-eslint/ban-types
   responseDto?: Function;
-  endpointDescription: string;
-  endpointSummary: string;
   error404Description?: string;
   error500Description?: string;
   isArray?: boolean;
