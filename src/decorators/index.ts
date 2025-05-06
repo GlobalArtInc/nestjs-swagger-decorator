@@ -8,7 +8,7 @@ import {
   getSchemaPath,
 } from '@nestjs/swagger';
 import { API_RESPONSE_DESCRIPTION } from '../constants';
-import { PaginatedResponseDto } from '../dtos/paginated-response.dto';
+import { PaginatedResponseDto } from '../dtos';
 import { SwaggerDocumentationOptions } from '../interfaces';
 
 // SwaggerDocumentation is a decorator function to generate Swagger documentation for endpoints based on the provided options.
