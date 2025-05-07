@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { SwaggerDocumentation } from '../../src/decorators/index';
+import { SwaggerDocumentation } from '../../dist';
 import { AppService } from './app.service';
 
 @Controller()
