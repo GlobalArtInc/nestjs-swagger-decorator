@@ -22,7 +22,7 @@ importers:
         version: 11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))
       '@nestjs/typeorm':
         specifier: ^11.0.0
-        version: 11.0.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.22(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3)))
+        version: 11.0.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.23(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3)))
       mysql:
         specifier: ^2.17.1
         version: 2.18.1
@@ -58,8 +58,8 @@ importers:
         specifier: ^10.0.0
         version: 10.9.2(@types/node@22.15.14)(typescript@5.8.3)
       typeorm:
-        specifier: 0.3.22
-        version: 0.3.22(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3))
+        specifier: 0.3.23
+        version: 0.3.23(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3))
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -2327,8 +2327,8 @@ packages:
     resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
     engines: {node: '>=16'}
 
-  typeorm@0.3.22:
-    resolution: {integrity: sha512-P/Tsz3UpJ9+K0oryC0twK5PO27zejLYYwMsE8SISfZc1lVHX+ajigiOyWsKbuXpEFMjD9z7UjLzY3+ElVOMMDA==}
+  typeorm@0.3.23:
+    resolution: {integrity: sha512-CJUZWW7O5zZG0TA7bRpntJx97AvvQwsoSa1UgYlzTOtmkwODrqIyxP9wtzHpBssEKie5chnLiCVyxKNeYo65wQ==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     peerDependencies:
@@ -3082,13 +3082,13 @@ snapshots:
       '@nestjs/core': 11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)
       tslib: 2.8.1
 
-  '@nestjs/typeorm@11.0.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.22(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3)))':
+  '@nestjs/typeorm@11.0.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.23(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3)))':
     dependencies:
       '@nestjs/common': 11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.0(@nestjs/common@11.1.0(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)
       reflect-metadata: 0.2.2
       rxjs: 7.8.2
-      typeorm: 0.3.22(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3))
+      typeorm: 0.3.23(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3))
 
   '@nodeutils/defaults-deep@1.1.0':
     dependencies:
@@ -5036,7 +5036,7 @@ snapshots:
 
   type-fest@4.41.0: {}
 
-  typeorm@0.3.22(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3)):
+  typeorm@0.3.23(reflect-metadata@0.2.2)(ts-node@10.9.2(@types/node@22.15.14)(typescript@5.8.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       ansis: 3.17.0
